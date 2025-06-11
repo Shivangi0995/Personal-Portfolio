@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shivangi - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">Shivangi</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section home-section">
+    <div class="home-content">
+      <h1 class="fade-in">Hi, I'm <span class="accent">Shivangi</span></h1>
+      <p class="fade-in delay-1">Crafting Code, Designing Experiences, Sparking Innovation</p>
+      <a href="#projects" class="btn fade-in delay-2">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <img src="portfolio.jpeg.jpg" alt="Profile" class="profile-img slide-in-left" />
+      <div class="about-text slide-in-right">
+        <p>
+          
+        </p>Hello! I’m Shivangi, a web developer fueled by curiosity and creativity. I enjoy turning ideas into engaging digital experiences—whether it’s building smooth animations, responsive layouts, or intuitive interfaces. For me, every project is a chance to learn something new and to make the web more user-friendly, one line of code at a time.
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card pop-in">
+        <span>HTML5</span>
+        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+      </div>
+      <div class="skill-card pop-in delay-1">
+        <span>CSS3</span>
+        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+      </div>
+      <div class="skill-card pop-in delay-2">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+      </div>
+      <div class="skill-card pop-in delay-3">
+        <span>Responsive Design</span>
+        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+      </div>
+      <div class="skill-card pop-in delay-4">
+        <span>Git & GitHub</span>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+      </div>
+      <div class="skill-card pop-in delay-5">
+        <span>React</span>
+        <div class="skill-bar"><div class="skill-level" style="width:70%"></div></div>
+    </div>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid" id="projects-grid">
+      <!-- Project cards will be inserted by JS -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contact-form" autocomplete="off">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p class="form-msg" id="form-msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shivangi. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
